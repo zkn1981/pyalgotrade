@@ -48,8 +48,8 @@ class BasicTick(Tick):
 
     def __init__(self, dateTime, bid, ask):
         self.__dateTime = dateTime
-        self.__open = bid
-        self.__close = ask
+        self.__bid = bid
+        self.__ask = ask
 
     def __setstate__(self, state):
         (self.__dateTime,
