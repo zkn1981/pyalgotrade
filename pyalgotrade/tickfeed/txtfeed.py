@@ -190,6 +190,7 @@ class GenericTickFeed(TickFeed):
     def __init__(self, maxLen=1024*10000):
         super(GenericTickFeed, self).__init__(maxLen)
         self.__tickClass = tick.BasicTick
+        self.__dateTimeFormat = "%Y.%m.%d %H:%M:%S"
 
     def setDateTimeFormat(self, dateTimeFormat):
         """

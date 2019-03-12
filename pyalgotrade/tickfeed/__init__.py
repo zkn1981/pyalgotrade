@@ -6,7 +6,7 @@
 import abc
 
 from pyalgotrade import bar
-from pyalgotrade.dataseries import tickds
+from pyalgotrade.tickdataseries import tickds
 from pyalgotrade import feed
 from pyalgotrade import dispatchprio
 
@@ -53,7 +53,6 @@ class BaseTickFeed(feed.BaseFeed):
 
     def createDataSeries(self, key, maxLen):
         ret = tickds.TickDataSeries(maxLen)
-        ret.setUseAdjustedValues(self.__useAdjustedValues)
         return ret
 
     def getNextValues(self):
@@ -63,13 +62,13 @@ class BaseTickFeed(feed.BaseFeed):
             dateTime = ticks.getDateTime()
 
             # Check that current tick datetimes are greater than the previous one.
-            if self.__currentTicks is not None and self.__currentTicks.getDateTime() >= dateTime:
-                raise Exception(
-                    "Tick date times are not in order. Previous datetime was %s and current datetime is %s" % (
-                        self.__currentTicks.getDateTime(),
-                        dateTime
-                    )
-                )
+            # if self.__currentTicks is not None and self.__currentTicks.getDateTime() >= dateTime:
+            #     raise Exception(
+            #         "Tick date times are not in order. Previous datetime was %s and current datetime is %s" % (
+            #             self.__currentTicks.getDateTime(),
+            #             dateTime
+            #         )
+            #     )
 
             # Update self.__currentTicks and self.__lastTicks
             self.__currentTicks = ticks
