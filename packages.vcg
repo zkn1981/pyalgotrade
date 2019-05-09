@@ -1,0 +1,1440 @@
+graph:{
+  title:"packages"
+  layoutalgorithm:dfs
+  late_edge_labels:yes
+  port_sharing:no
+  manhattan_edges:yes
+  node: {title:"0"  label:"\fbpyalgotrade\fn"
+  shape:box
+}
+  node: {title:"1"  label:"\fbpyalgotrade.bar\fn"
+  shape:box
+}
+  node: {title:"2"  label:"\fbpyalgotrade.barfeed\fn"
+  shape:box
+}
+  node: {title:"3"  label:"\fbpyalgotrade.barfeed.common\fn"
+  shape:box
+}
+  node: {title:"4"  label:"\fbpyalgotrade.barfeed.csvfeed\fn"
+  shape:box
+}
+  node: {title:"5"  label:"\fbpyalgotrade.barfeed.dbfeed\fn"
+  shape:box
+}
+  node: {title:"6"  label:"\fbpyalgotrade.barfeed.googlefeed\fn"
+  shape:box
+}
+  node: {title:"7"  label:"\fbpyalgotrade.barfeed.membf\fn"
+  shape:box
+}
+  node: {title:"8"  label:"\fbpyalgotrade.barfeed.ninjatraderfeed\fn"
+  shape:box
+}
+  node: {title:"9"  label:"\fbpyalgotrade.barfeed.quandlfeed\fn"
+  shape:box
+}
+  node: {title:"10"  label:"\fbpyalgotrade.barfeed.resampled\fn"
+  shape:box
+}
+  node: {title:"11"  label:"\fbpyalgotrade.barfeed.sqlitefeed\fn"
+  shape:box
+}
+  node: {title:"12"  label:"\fbpyalgotrade.barfeed.yahoofeed\fn"
+  shape:box
+}
+  node: {title:"13"  label:"\fbpyalgotrade.bitcoincharts\fn"
+  shape:box
+}
+  node: {title:"14"  label:"\fbpyalgotrade.bitcoincharts.barfeed\fn"
+  shape:box
+}
+  node: {title:"15"  label:"\fbpyalgotrade.bitstamp\fn"
+  shape:box
+}
+  node: {title:"16"  label:"\fbpyalgotrade.bitstamp.barfeed\fn"
+  shape:box
+}
+  node: {title:"17"  label:"\fbpyalgotrade.bitstamp.broker\fn"
+  shape:box
+}
+  node: {title:"18"  label:"\fbpyalgotrade.bitstamp.common\fn"
+  shape:box
+}
+  node: {title:"19"  label:"\fbpyalgotrade.bitstamp.httpclient\fn"
+  shape:box
+}
+  node: {title:"20"  label:"\fbpyalgotrade.bitstamp.livebroker\fn"
+  shape:box
+}
+  node: {title:"21"  label:"\fbpyalgotrade.bitstamp.livefeed\fn"
+  shape:box
+}
+  node: {title:"22"  label:"\fbpyalgotrade.bitstamp.wsclient\fn"
+  shape:box
+}
+  node: {title:"23"  label:"\fbpyalgotrade.broker\fn"
+  shape:box
+}
+  node: {title:"24"  label:"\fbpyalgotrade.broker.backtesting\fn"
+  shape:box
+}
+  node: {title:"25"  label:"\fbpyalgotrade.broker.fillstrategy\fn"
+  shape:box
+}
+  node: {title:"26"  label:"\fbpyalgotrade.broker.slippage\fn"
+  shape:box
+}
+  node: {title:"27"  label:"\fbpyalgotrade.dataseries\fn"
+  shape:box
+}
+  node: {title:"28"  label:"\fbpyalgotrade.dataseries.aligned\fn"
+  shape:box
+}
+  node: {title:"29"  label:"\fbpyalgotrade.dataseries.bards\fn"
+  shape:box
+}
+  node: {title:"30"  label:"\fbpyalgotrade.dataseries.resampled\fn"
+  shape:box
+}
+  node: {title:"31"  label:"\fbpyalgotrade.dataseries.tickds\fn"
+  shape:box
+}
+  node: {title:"32"  label:"\fbpyalgotrade.dispatcher\fn"
+  shape:box
+}
+  node: {title:"33"  label:"\fbpyalgotrade.dispatchprio\fn"
+  shape:box
+}
+  node: {title:"34"  label:"\fbpyalgotrade.eventprofiler\fn"
+  shape:box
+}
+  node: {title:"35"  label:"\fbpyalgotrade.feed\fn"
+  shape:box
+}
+  node: {title:"36"  label:"\fbpyalgotrade.feed.csvfeed\fn"
+  shape:box
+}
+  node: {title:"37"  label:"\fbpyalgotrade.feed.memfeed\fn"
+  shape:box
+}
+  node: {title:"38"  label:"\fbpyalgotrade.logger\fn"
+  shape:box
+}
+  node: {title:"39"  label:"\fbpyalgotrade.marketsession\fn"
+  shape:box
+}
+  node: {title:"40"  label:"\fbpyalgotrade.observer\fn"
+  shape:box
+}
+  node: {title:"41"  label:"\fbpyalgotrade.optimizer\fn"
+  shape:box
+}
+  node: {title:"42"  label:"\fbpyalgotrade.optimizer.base\fn"
+  shape:box
+}
+  node: {title:"43"  label:"\fbpyalgotrade.optimizer.local\fn"
+  shape:box
+}
+  node: {title:"44"  label:"\fbpyalgotrade.optimizer.serialization\fn"
+  shape:box
+}
+  node: {title:"45"  label:"\fbpyalgotrade.optimizer.server\fn"
+  shape:box
+}
+  node: {title:"46"  label:"\fbpyalgotrade.optimizer.worker\fn"
+  shape:box
+}
+  node: {title:"47"  label:"\fbpyalgotrade.optimizer.xmlrpcserver\fn"
+  shape:box
+}
+  node: {title:"48"  label:"\fbpyalgotrade.plotter\fn"
+  shape:box
+}
+  node: {title:"49"  label:"\fbpyalgotrade.resamplebase\fn"
+  shape:box
+}
+  node: {title:"50"  label:"\fbpyalgotrade.stratanalyzer\fn"
+  shape:box
+}
+  node: {title:"51"  label:"\fbpyalgotrade.stratanalyzer.drawdown\fn"
+  shape:box
+}
+  node: {title:"52"  label:"\fbpyalgotrade.stratanalyzer.returns\fn"
+  shape:box
+}
+  node: {title:"53"  label:"\fbpyalgotrade.stratanalyzer.sharpe\fn"
+  shape:box
+}
+  node: {title:"54"  label:"\fbpyalgotrade.stratanalyzer.trades\fn"
+  shape:box
+}
+  node: {title:"55"  label:"\fbpyalgotrade.strategy\fn"
+  shape:box
+}
+  node: {title:"56"  label:"\fbpyalgotrade.strategy.position\fn"
+  shape:box
+}
+  node: {title:"57"  label:"\fbpyalgotrade.strategy.tickstrategy\fn"
+  shape:box
+}
+  node: {title:"58"  label:"\fbpyalgotrade.talibext\fn"
+  shape:box
+}
+  node: {title:"59"  label:"\fbpyalgotrade.talibext.indicator\fn"
+  shape:box
+}
+  node: {title:"60"  label:"\fbpyalgotrade.technical\fn"
+  shape:box
+}
+  node: {title:"61"  label:"\fbpyalgotrade.technical.atr\fn"
+  shape:box
+}
+  node: {title:"62"  label:"\fbpyalgotrade.technical.bollinger\fn"
+  shape:box
+}
+  node: {title:"63"  label:"\fbpyalgotrade.technical.cross\fn"
+  shape:box
+}
+  node: {title:"64"  label:"\fbpyalgotrade.technical.cumret\fn"
+  shape:box
+}
+  node: {title:"65"  label:"\fbpyalgotrade.technical.highlow\fn"
+  shape:box
+}
+  node: {title:"66"  label:"\fbpyalgotrade.technical.hurst\fn"
+  shape:box
+}
+  node: {title:"67"  label:"\fbpyalgotrade.technical.linebreak\fn"
+  shape:box
+}
+  node: {title:"68"  label:"\fbpyalgotrade.technical.linreg\fn"
+  shape:box
+}
+  node: {title:"69"  label:"\fbpyalgotrade.technical.ma\fn"
+  shape:box
+}
+  node: {title:"70"  label:"\fbpyalgotrade.technical.macd\fn"
+  shape:box
+}
+  node: {title:"71"  label:"\fbpyalgotrade.technical.ratio\fn"
+  shape:box
+}
+  node: {title:"72"  label:"\fbpyalgotrade.technical.roc\fn"
+  shape:box
+}
+  node: {title:"73"  label:"\fbpyalgotrade.technical.rsi\fn"
+  shape:box
+}
+  node: {title:"74"  label:"\fbpyalgotrade.technical.stats\fn"
+  shape:box
+}
+  node: {title:"75"  label:"\fbpyalgotrade.technical.stoch\fn"
+  shape:box
+}
+  node: {title:"76"  label:"\fbpyalgotrade.technical.vwap\fn"
+  shape:box
+}
+  node: {title:"77"  label:"\fbpyalgotrade.tick\fn"
+  shape:box
+}
+  node: {title:"78"  label:"\fbpyalgotrade.tickfeed\fn"
+  shape:box
+}
+  node: {title:"79"  label:"\fbpyalgotrade.tickfeed.memtf\fn"
+  shape:box
+}
+  node: {title:"80"  label:"\fbpyalgotrade.tickfeed.txtfeed\fn"
+  shape:box
+}
+  node: {title:"81"  label:"\fbpyalgotrade.tools\fn"
+  shape:box
+}
+  node: {title:"82"  label:"\fbpyalgotrade.tools.quandl\fn"
+  shape:box
+}
+  node: {title:"83"  label:"\fbpyalgotrade.tools.resample\fn"
+  shape:box
+}
+  node: {title:"84"  label:"\fbpyalgotrade.twitter\fn"
+  shape:box
+}
+  node: {title:"85"  label:"\fbpyalgotrade.twitter.feed\fn"
+  shape:box
+}
+  node: {title:"86"  label:"\fbpyalgotrade.utils\fn"
+  shape:box
+}
+  node: {title:"87"  label:"\fbpyalgotrade.utils.collections\fn"
+  shape:box
+}
+  node: {title:"88"  label:"\fbpyalgotrade.utils.csvutils\fn"
+  shape:box
+}
+  node: {title:"89"  label:"\fbpyalgotrade.utils.dt\fn"
+  shape:box
+}
+  node: {title:"90"  label:"\fbpyalgotrade.utils.stats\fn"
+  shape:box
+}
+  node: {title:"91"  label:"\fbpyalgotrade.warninghelpers\fn"
+  shape:box
+}
+  node: {title:"92"  label:"\fbpyalgotrade.websocket\fn"
+  shape:box
+}
+  node: {title:"93"  label:"\fbpyalgotrade.websocket.client\fn"
+  shape:box
+}
+  node: {title:"94"  label:"\fbpyalgotrade.websocket.pusher\fn"
+  shape:box
+}
+  edge: {sourcename:"2" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"2" targetname:"1"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"2" targetname:"27"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"2" targetname:"29"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"2" targetname:"33"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"2" targetname:"35"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"4" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"4" targetname:"1"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"4" targetname:"2"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"4" targetname:"7"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"4" targetname:"86"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"4" targetname:"88"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"4" targetname:"89"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"6" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"6" targetname:"1"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"6" targetname:"2"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"6" targetname:"3"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"6" targetname:"4"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"6" targetname:"86"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"6" targetname:"89"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"7" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"7" targetname:"1"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"7" targetname:"2"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"7" targetname:"86"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"8" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"8" targetname:"1"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"8" targetname:"2"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"8" targetname:"4"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"8" targetname:"86"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"8" targetname:"89"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"9" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"9" targetname:"1"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"9" targetname:"2"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"9" targetname:"4"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"10" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"10" targetname:"1"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"10" targetname:"2"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"10" targetname:"27"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"10" targetname:"30"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"10" targetname:"49"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"11" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"11" targetname:"1"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"11" targetname:"2"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"11" targetname:"5"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"11" targetname:"7"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"11" targetname:"86"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"11" targetname:"89"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"12" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"12" targetname:"1"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"12" targetname:"2"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"12" targetname:"3"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"12" targetname:"4"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"12" targetname:"86"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"12" targetname:"89"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"14" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"14" targetname:"1"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"14" targetname:"2"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"14" targetname:"4"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"14" targetname:"86"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"14" targetname:"89"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"16" targetname:"15"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"16" targetname:"21"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"17" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"17" targetname:"15"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"17" targetname:"18"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"17" targetname:"20"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"17" targetname:"23"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"17" targetname:"24"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"18" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"18" targetname:"23"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"18" targetname:"38"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"19" targetname:"15"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"19" targetname:"18"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"19" targetname:"86"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"19" targetname:"89"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"20" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"20" targetname:"15"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"20" targetname:"18"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"20" targetname:"19"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"20" targetname:"23"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"21" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"21" targetname:"1"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"21" targetname:"2"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"21" targetname:"15"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"21" targetname:"18"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"21" targetname:"22"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"21" targetname:"40"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"22" targetname:"15"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"22" targetname:"18"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"22" targetname:"92"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"22" targetname:"93"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"22" targetname:"94"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"23" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"23" targetname:"33"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"23" targetname:"40"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"24" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"24" targetname:"1"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"24" targetname:"23"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"24" targetname:"25"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"24" targetname:"38"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"25" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"25" targetname:"1"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"25" targetname:"23"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"27" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"27" targetname:"40"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"27" targetname:"86"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"27" targetname:"87"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"28" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"28" targetname:"27"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"29" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"29" targetname:"27"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"30" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"30" targetname:"1"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"30" targetname:"27"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"30" targetname:"29"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"30" targetname:"49"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"31" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"31" targetname:"27"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"32" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"32" targetname:"33"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"32" targetname:"40"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"32" targetname:"86"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"34" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"34" targetname:"32"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"34" targetname:"60"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"34" targetname:"72"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"35" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"35" targetname:"27"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"35" targetname:"40"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"36" targetname:"35"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"36" targetname:"37"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"36" targetname:"86"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"36" targetname:"88"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"36" targetname:"89"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"37" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"37" targetname:"27"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"37" targetname:"35"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"40" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"40" targetname:"33"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"43" targetname:"41"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"43" targetname:"42"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"43" targetname:"45"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"43" targetname:"46"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"43" targetname:"47"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"45" targetname:"38"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"45" targetname:"41"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"45" targetname:"42"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"45" targetname:"47"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"46" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"46" targetname:"2"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"46" targetname:"38"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"46" targetname:"41"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"46" targetname:"44"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"47" targetname:"38"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"47" targetname:"41"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"47" targetname:"42"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"47" targetname:"44"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"48" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"48" targetname:"23"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"48" targetname:"91"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"49" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"49" targetname:"1"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"49" targetname:"86"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"49" targetname:"89"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"51" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"51" targetname:"50"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"52" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"52" targetname:"27"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"52" targetname:"40"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"52" targetname:"50"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"53" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"53" targetname:"50"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"53" targetname:"52"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"53" targetname:"86"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"53" targetname:"90"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"54" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"54" targetname:"23"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"54" targetname:"50"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"54" targetname:"52"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"55" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"55" targetname:"2"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"55" targetname:"10"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"55" targetname:"23"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"55" targetname:"24"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"55" targetname:"32"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"55" targetname:"38"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"55" targetname:"40"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"56" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"56" targetname:"23"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"56" targetname:"50"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"56" targetname:"52"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"56" targetname:"91"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"57" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"57" targetname:"23"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"57" targetname:"24"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"57" targetname:"32"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"57" targetname:"38"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"57" targetname:"40"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"60" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"60" targetname:"27"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"60" targetname:"86"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"60" targetname:"87"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"61" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"61" targetname:"27"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"61" targetname:"29"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"61" targetname:"60"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"62" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"62" targetname:"27"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"62" targetname:"60"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"62" targetname:"69"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"62" targetname:"74"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"64" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"64" targetname:"60"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"65" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"65" targetname:"60"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"66" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"66" targetname:"60"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"67" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"67" targetname:"27"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"67" targetname:"29"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"68" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"68" targetname:"60"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"68" targetname:"86"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"68" targetname:"87"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"68" targetname:"89"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"69" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"69" targetname:"60"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"70" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"70" targetname:"27"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"70" targetname:"60"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"70" targetname:"69"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"71" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"71" targetname:"60"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"71" targetname:"86"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"72" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"72" targetname:"60"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"73" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"73" targetname:"60"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"74" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"74" targetname:"60"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"75" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"75" targetname:"27"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"75" targetname:"29"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"75" targetname:"60"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"75" targetname:"69"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"76" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"76" targetname:"27"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"76" targetname:"29"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"76" targetname:"60"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"77" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"77" targetname:"1"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"78" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"78" targetname:"1"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"78" targetname:"27"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"78" targetname:"31"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"78" targetname:"33"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"78" targetname:"35"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"79" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"79" targetname:"77"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"79" targetname:"78"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"79" targetname:"86"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"80" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"80" targetname:"1"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"80" targetname:"77"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"80" targetname:"78"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"80" targetname:"79"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"80" targetname:"86"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"80" targetname:"89"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"82" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"82" targetname:"1"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"82" targetname:"2"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"82" targetname:"9"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"82" targetname:"38"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"82" targetname:"86"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"82" targetname:"88"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"82" targetname:"89"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"83" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"83" targetname:"27"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"83" targetname:"30"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"83" targetname:"32"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"85" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"85" targetname:"38"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"85" targetname:"40"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"93" targetname:"38"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"94" targetname:"0"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"94" targetname:"92"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+  edge: {sourcename:"94" targetname:"93"  arrowstyle:solid
+  backarrowstyle:none
+  backarrowsize:0
+}
+}
